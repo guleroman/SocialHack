@@ -44,19 +44,6 @@ table
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -979,19 +966,6 @@ df_normalized
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1912,18 +1886,6 @@ output_data
 ```
 
 
-    ---------------------------------------------------------------------------
-
-    NameError                                 Traceback (most recent call last)
-
-    <ipython-input-27-8b6b5a86cb88> in <module>
-    ----> 1 output_data = pd.DataFrame({'Real_Demand': y_test,'Predict_Demand': preds})
-          2 output_data
-    
-
-    NameError: name 'y_test' is not defined
-
-
 #### Построим графики зависимости спрогнозированного и реального спроса на энергию от температуры
 
 
@@ -1942,24 +1904,3 @@ plt.show()
 
 ```python
 
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
