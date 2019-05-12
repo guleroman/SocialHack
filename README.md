@@ -24,17 +24,10 @@ table = table.replace(np.nan,0)
 table = table.astype(np.float64)
 table.columns
 ```
-
-
-
-
     Index(['Time', 'Year', 'Month', 'Day_of_week', 'Season', 'Temperature',
            'Number_Of_Guest_Nights', 'Total_hours_worked', 'Sales_new_vehicles',
            'Demand'],
           dtype='object')
-
-
-
 
 ```python
 table
@@ -736,7 +729,6 @@ preds = model.predict(test_pool)
 sqrt(mean_squared_error(y_test, preds))
 ```
 0.20499970607702006
-
 ```python
 output_data = pd.DataFrame({'Real_Demand': [],'Predict_Demand': [], 'Temperature': []})
 output_data['Real_Demand'] = preds
@@ -760,7 +752,7 @@ sns.lineplot(output_data['Temperature'],output_data['Predict_Demand'], palette='
 plt.title('Зависимость спроса на энергию, в зависимости от температуры, ')
 plt.show()
 ```
-![png](images/output_7_1.png)
+![png](images/output_12.png)
 
 ```python
 
